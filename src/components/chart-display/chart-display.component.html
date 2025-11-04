@@ -1,0 +1,8 @@
+
+<div class="p-6 sm:p-10">
+  @if (chartData()) {
+    <article class="prose prose-lg prose-invert max-w-none prose-headings:text-amber-200 prose-strong:text-amber-100">
+      <markdown [data]="chartData()"></markdown>
+    </article>
+  }
+</div>
